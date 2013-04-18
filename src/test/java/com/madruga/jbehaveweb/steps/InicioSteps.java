@@ -18,11 +18,6 @@ public class InicioSteps {
 		inicioPage = new InicioPage();
 	}
 	
-//	@Given("o usuario seleciona a calculadora")
-//	public void givenOUsuarioSelecionaACalculadora() {
-//		inicioPage.calculadoraClick();
-//	}
-	
 	@When("o usuario seleciona a calculadora")
 	public void whenOUsuarioSelecionaACalculadora() {
 		calculadoraPage = inicioPage.calculadoraClick();
