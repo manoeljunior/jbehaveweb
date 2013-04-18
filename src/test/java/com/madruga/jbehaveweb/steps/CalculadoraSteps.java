@@ -13,8 +13,13 @@ public class CalculadoraSteps {
 	private CalculadoraPage calculadoraPage;
 	private double DELTA = 0.0000001;
 	
-	@Given("o sistema apresenta a tela calculadora")
-	public void givenOSistemaApresentaATelaCalculadora() {
+//	@Given("o sistema apresenta a tela calculadora")
+//	public void givenOSistemaApresentaATelaCalculadora() {
+//		calculadoraPage = new CalculadoraPage();
+//	}
+	
+	@Given("o usuario esta na tela calculadora")
+	public void givenOUsuarioEstaNaTelaCalculadora() {
 		calculadoraPage = new CalculadoraPage();
 	}
 	
